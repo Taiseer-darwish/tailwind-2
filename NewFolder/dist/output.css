@@ -560,18 +560,6 @@ video {
   top: 0px;
 }
 
-.m-2 {
-  margin: 0.5rem;
-}
-
-.m-4 {
-  margin: 1rem;
-}
-
-.m-6 {
-  margin: 1.5rem;
-}
-
 .mr-11 {
   margin-right: 2.75rem;
 }
@@ -618,10 +606,6 @@ video {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.gap-10 {
-  gap: 2.5rem;
 }
 
 .bg-amber-200 {
@@ -722,6 +706,11 @@ video {
 .text-zinc-200 {
   --tw-text-opacity: 1;
   color: rgb(228 228 231 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .boxs {
@@ -865,10 +854,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:m-4 {
-    margin: 1rem;
-  }
-
   .md\:m-6 {
     margin: 1.5rem;
   }
